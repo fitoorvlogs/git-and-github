@@ -6,7 +6,11 @@
     <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
     <link rel="icon" href="./vector-business-illustration-concept-businesswoman-260nw-1712959189.webp">
     <title>GIT AND GITHUB</title>
-    
+<style>
+    body{
+        font-size: 20px;
+    }
+</style>    
 </head>
 <body>
     <h1>GIT</h1>
@@ -97,10 +101,104 @@
             </ul>       
         </dd>
     </li><br>
-    <li>
-        After doing all things press enter and your project save in your repositry just refresh the page and go to setting then pages select your branch as master and your repositry got publish and you get your page link. 
-    </li>
+
+    <ul type="square">
+        <li>
+    <p style="font-size: large;"><i> After doing all things press enter and your project save in your repositry just refresh the page and go to setting then pages select your branch as master and your repositry got publish and you get your page link. </i></p>
+        </li>
+    </ul>
+
 </ol>
+
+<h2 style="display: inline;">
+    &#x2192 Cloning your project :-
+</h2>
+   <p style="display: inline;">
+    if your any of your project got delete by your local device you can easily clone it from your repositry by the following steps-
+</p>
+<br><br>
+    <li>
+        <span><img src="./Screenshot 2022-07-26 134703.png" alt="there is img" style="height: 200px;"> copy this link from reposetry</span>
+    </li><br>
+    <li>
+        open command promat in your device then give the command
+        <dd>
+        <li type="square">
+            git clone _____<span style="background-color: rgb(200, 28, 206);"> (paste the link) </span>
+        </li>
+    </dd> 
+    </li> <br>
+   
+    <h2 style="display:inline;">
+        &#x2192 Making changes in exiting reposetry :-
+    </h2>
+    <p style="display:inline;">
+        Make your changes in vscode and open terminal section and give command-
+        <dd>
+            <li>
+                git add . &#x21B5;
+            </li>
+            <li>
+                git commit -m "somithing about edit" &#x21B5;
+            </li>
+            <li>
+                git push origin master &#x21B5;
+            </li>
+        </dd>
+    </p>
+
+    <h2 style="display:inline;">
+        &#x2192 Creating new branch :-
+    </h2>
+    <p style="display:inline;">
+       When we work on any project in large scale there is lot of members and new commers also join for new commers we create a sprate branch so that our project is safe and when their coding is crosschecked we merge that branch in main branch.
+     
+    <ol>
+        <li>
+            For creating new branch give the following inserction to the terminal :-
+            <dd>
+                <ul>
+                <li>
+                     git branch &#x21B5; <span style="background-color: rgb(28, 159, 206);"> (this is not any command it is only for knowing that in which branch you are working or how many branches are there) </span>          
+                </li>
+                <li>
+                    git branch &#x21B5; <span style="background-color: rgb(200, 28, 206);"> (branch name) </span>
+                </li>
+                <li>
+                    git checkout <span style="background-color: rgb(206, 114, 28);"> (branch name in which you want to switch) </span> &#x21B5;
+                </li>
+                <li>
+                    git push origin <span style="background-color: rgb(147, 206, 28);"> (branch name in which you want to refelct in reposetry) </span> &#x21B5;
+                </li>
+            </ul>
+            </dd>
+        </li>
+<br>
+        <li>
+            Merging all the branches into master branch :-
+            <dd>
+                <ul>
+                    <li>
+                        git pull origin <span style="background-color: rgb(244, 107, 9);"> (branch name of alternative that you want to pulled into main) </span> &#x21B5;
+                    </li>
+                    <li>
+                        git push origin <span style="background-color: rgb(244, 9, 9);"> (main branch name after pull you need to push changes into main branch) </span> &#x21B5;
+                    </li>
+                    <li>
+                        git add . &#x21B5;
+                    </li>
+                    <li>
+                        git commit -m "merging branches" &#x21B5;
+                    </li>
+                    <li>
+                        git push origin master &#x21B5;
+                    </li>
+                    
+                </ul>
+            </dd>
+        </li>
+    </ol>
+    </p>
 
 
 
